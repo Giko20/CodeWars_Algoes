@@ -1,0 +1,11 @@
+def count(string):
+    listi=[]
+    dicti={}
+    for i in string:
+        listi.append(i)
+        if i in dicti:
+            dicti[i] += 1
+        else:
+            dicti[i] = 1
+    return dicti
+count('')
