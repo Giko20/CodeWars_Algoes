@@ -1,5 +1,5 @@
 # code
-
+'''Python
 def count_bits(n):
     l1=list(bin(n))
     l2=[]
@@ -10,12 +10,13 @@ def count_bits(n):
             if i=='1':
                 l2.append(i)
         return len(l2)
-
+'''
 
 # code
-
+'''Python
 def count_bits(n):
     if n<0:
         return "Use only non-negatives!"
     else:
         return bin(n).count("1")
+'''
