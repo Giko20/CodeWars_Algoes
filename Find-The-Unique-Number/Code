@@ -1,0 +1,8 @@
+# code
+'''Python
+def find_uniq(arr):
+    seti=set(arr)
+    for i in seti:
+        if arr.count(i)==1:
+            return i
+'''
