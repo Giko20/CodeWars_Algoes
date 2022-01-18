@@ -1,0 +1,5 @@
+# code
+'''python
+def count_letters_and_digits(s):
+    return sum([l.isalpha() or l.isdigit() for l in list(s)])
+'''
