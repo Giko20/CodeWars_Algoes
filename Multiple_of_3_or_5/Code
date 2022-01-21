@@ -1,0 +1,11 @@
+# code
+'''python'''
+
+def solution(number):
+    sum=0
+    for num in range(0, number-1):
+        num=num+1
+        if num % 3==0 or num % 5==0:
+            sum+=num
+    return sum
+solution(10)
