@@ -1,0 +1,19 @@
+# code 
+'''python'''
+
+def parse(data):
+    sumi=0
+    jami=[]
+    for i in data:
+        if i=="i":
+            sumi+=1
+        elif i=="d":
+            sumi-=1
+        elif i=="s":
+            sumi=sumi**2
+        elif i=="o":
+            jami.append(sumi)
+        else:
+            pass
+    return jami
+parse("ioioio")
