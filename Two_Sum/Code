@@ -1,0 +1,9 @@
+# code
+'''python'''
+
+def two_sum(numbers, target):
+    for i, x in enumerate(numbers):
+        for j, y in enumerate(numbers):
+            if i != j and x + y == target:
+                return [i, j]
+two_sum([1,2,5,3], 4)
