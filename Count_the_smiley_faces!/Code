@@ -1,0 +1,14 @@
+# code 
+'''python'''
+
+def count_smileys(listi):
+    eyes=[':', ';']
+    nose=['', '-', '~']
+    mouth=['D', ')']
+    counter=0
+    for i in eyes:
+        for j in nose:
+            for k in mouth:
+                face=i+j+k
+                counter += listi.count(face)
+    return counter
